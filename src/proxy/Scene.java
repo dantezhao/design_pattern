@@ -8,6 +8,8 @@ public class Scene {
     public static void main(String[] args) {
 
         GirlSearcher emperor = EmperorGirlSearcher.getInstance();
+
+        //皇上亲自出发！
         //第一次选妃
         emperor.travel();
         emperor.search();
